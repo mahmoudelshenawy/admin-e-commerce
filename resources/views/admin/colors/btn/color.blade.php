@@ -1,0 +1,1 @@
+<span style="width:50px;height:50px;background: {{ $color }};display:block;" class="rounded"></span>

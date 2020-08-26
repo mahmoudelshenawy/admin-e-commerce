@@ -1,0 +1,26 @@
+.nav {
+    background-color: adjust-hue($color: #3fa090, $degrees: 70%);
+    padding: 10px 0;
+    .top-nav {
+        display: flex;
+
+        .nav-menu {
+            margin-left: auto;
+            width: 70%;
+        }
+        ul {
+            display: flex;
+            li {
+                list-style: none;
+                margin-right: 30px;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    &:hover {
+                        color: #3fa090;
+                    }
+                }
+            }
+        }
+    }
+}
